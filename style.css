@@ -1,5 +1,9 @@
 /* GENERALE */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
 }
@@ -57,16 +61,33 @@ p {
     margin: auto;
 }
 
-th {
-    text-align: left;
-}
+/* TABLE */
 
 table {
-    border: 2px dashed red;
+    border-collapse: collapse;
+    margin-block: 20px;
 }
 
-.lorem {
-    border: 2px dashed red;
+thead {
+    text-align: left;
+    background-color: #1FA9E5;
+}
 
-    padding-inline-end: 40px;
+th {
+    color: whitesmoke;
+}
+
+.td-lorem {
+    width: 20vw;
+    height: 100px;
+}
+
+.light-blue-tr {
+    background-color: #B2E3F2;
+}
+
+/* FOOTER */
+
+#foot {
+    font-size: 0.9rem;
 }
