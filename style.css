@@ -1,21 +1,72 @@
+/* GENERALE */
+
 body {
     margin: 0px;
 }
+
+.wrapper {
+    margin-inline: 5vw;
+}
+
+/* HEADER */
 
 #header {
     background-image: url("./img/pattern.png");
     background-color: #4DA1FF;
     background-size: 280px;
-    block-size: 10vh;
-    padding-inline: 5%;
+    block-size: 90px;
     border: 2px dotted red;
 }
 
 #logo {
     border: 2px dotted red;
+    margin-block-start: 35px;
+    overflow: hidden;
     block-size: 50%;
-    margin-block-start: 4%;
 }
 
+/* MAIN */
 
+#headline {
+    margin-bottom: auto;
+}
 
+.grey-text {
+    color: grey;
+}
+
+.blue-text {
+    color: #3488B9;
+}
+
+.highlighted {
+    background-color: #FFFE00;
+}
+
+#date {
+    font-size: 0.7rem;
+    margin-block-end: 10px;
+}
+
+.photo-desc {
+    font-size: 0.7rem;
+    margin-block-end: 10px;
+}
+
+p {
+    margin: auto;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border: 2px dashed red;
+}
+
+.lorem {
+    border: 2px dashed red;
+
+    padding-inline-end: 40px;
+}
