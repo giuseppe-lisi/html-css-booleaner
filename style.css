@@ -1,38 +1,35 @@
 /* GENERALE */
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0px;
 }
 
 .wrapper {
-    margin-inline: 5vw;
+    margin-inline: 50px;
 }
 
 /* HEADER */
 
-#header {
+.header {
     background-image: url("./img/pattern.png");
     background-color: #4DA1FF;
-    background-size: 280px;
-    block-size: 90px;
-    border: 2px dotted red;
+    background-size: 300px;
+    height: 90px;
 }
 
-#logo {
-    border: 2px dotted red;
-    margin-block-start: 35px;
-    overflow: hidden;
+.header img {
+    margin-top: 40px;
     block-size: 50%;
 }
 
 /* MAIN */
 
-#headline {
-    margin-bottom: auto;
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin: 0px;
 }
 
 .grey-text {
@@ -47,18 +44,9 @@ body {
     background-color: #FFFE00;
 }
 
-#date {
+.small-text {
     font-size: 0.7rem;
-    margin-block-end: 10px;
-}
-
-.photo-desc {
-    font-size: 0.7rem;
-    margin-block-end: 10px;
-}
-
-p {
-    margin: auto;
+    margin-bottom: 20px;
 }
 
 /* TABLE */
@@ -71,23 +59,32 @@ table {
 thead {
     text-align: left;
     background-color: #1FA9E5;
-}
-
-th {
     color: whitesmoke;
 }
 
-.td-lorem {
-    width: 20vw;
-    height: 100px;
+.table-cell {
+    width: 25%;
 }
 
-.light-blue-tr {
+.light-blue-row {
     background-color: #B2E3F2;
 }
 
 /* FOOTER */
 
-#foot {
-    font-size: 0.9rem;
+.article {
+    font-size: 1.4rem;
+    color: whitesmoke;
+
+    width: 300px;
+    height: 200px;
+    margin-block: 20px;
+}
+
+#articolo-1 {
+    background-image: url(./img/monitor.jpg);
+}
+
+#articolo-2 {
+    background-image: url(./img/graph.jpg);
 }
