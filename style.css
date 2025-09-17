@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    background-image: url("./img/pattern.png");
+    background-color: #4DA1FF;
+    background-size: 280px;
+    block-size: 10vh;
+    padding-inline: 5%;
+    border: 2px dotted red;
+}
+
+#logo {
+    border: 2px dotted red;
+    block-size: 50%;
+    margin-block-start: 4%;
+}
+
+
+
